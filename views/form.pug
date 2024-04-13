@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  form(action="/new", method="post").input-form
+    input(type="text", name="txtUser", placeholder="Enter User")
+    input(type="text", name="txtText", placeholder="Enter Text")
+    input(type="submit", value="Submit")
